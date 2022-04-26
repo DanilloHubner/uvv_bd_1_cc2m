@@ -17,7 +17,7 @@ CREATE TABLE funcionario (
 );
 
 -- COMENTÁRIOS E IDENTIFICAÇÃO DOS ATRIBUTOS DA TABELA funcionario.
-ALTER TABLE funcionario COMMENT 'Tabela que armazena as informações dos funcionário.';
+ALTER TABLE funcionario COMMENT 'Tabela que armazena as informações dos funcionários.';
 
 ALTER TABLE funcionario MODIFY COLUMN cpf CHAR(11) NOT NULL COMMENT 'Cpf do funcionário (PK da tabela).';
 
