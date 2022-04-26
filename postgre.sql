@@ -149,7 +149,7 @@ REFERENCES elmasri.funcionario (cpf)
 ON DELETE CASCADE
 ON UPDATE CASCADE;
 
--- Criando uma foreing key cpf_supervisor na tabela funcionarios e relacionando ao cpf da tabela funcionario. 
+-- Criando uma foreing key cpf_supervisor na tabela funcionario e relacionando ao cpf da tabela funcionario. 
 ALTER TABLE elmasri.funcionario ADD CONSTRAINT funcionario_funcionario_fk
 FOREIGN KEY (cpf_supervisor)
 REFERENCES elmasri.funcionario (cpf)
